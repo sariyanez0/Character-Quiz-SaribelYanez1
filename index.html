@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Character Quiz - Saribel Yanez</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  
+  <div class="title">
+    <h1>Which Tangled Character Are You??</h1>
+  </div>
+
+  <div class="quiz">
+    <div class="pictures">
+      <img src="pascal-tangled.jpeg" alt="Pascal">
+  
+      <img src="rapunzel-project.jpeg" alt="Rapunzel">
+    </div>
+    
+    <div class="pictures">
+      <img src="Gothel.png" alt="Gothel">
+  
+      <img src="flynn-project.jpeg" alt="Flynn">
+    </div>
+  
+    <div class="questions"> 
+      <p>On a scale of 1 - 10 how loyal are you?</p>
+      <input class="userInput1" placeholder="1 - 10">
+      <p>Are you Selfish or Selfless</p>
+      <input class="userInput2" placeholder="Selfish or Selfless">
+      <br>
+      <button class="submit">Submit</button>
+      <p class="counter"></p>
+    </div>
+  </div>
+
+  <div class="answer">
+    
+    <div class="Pascal">
+      <img class="ctimg" src="pascal-tangled.jpeg" alt="Pascal">
+        <section>
+          <p class="character">Pascal!</p>
+          <p>Pascal is a true and loyal friend to Rapunzel. Even though he can't communicate verbally, it is clear that he is one of the driving forces in helping Rapunzel see that she needs to leave the tower. Pascal is constantly cheering her up, rooting her on, and refusing to allow her to take steps backward.</p>
+        </section>
+    </div>
+    <div class="Rapunzel">
+      <img class="ctimg" src="rapunzel-project.jpeg" alt="Rapunzel">
+        <section>
+          <p class="character">Rapunzel!</p>
+          <p>Rapunzel is a spirited and determined young woman, with a strong sense of curiosity about the world, and a willingness to step outside of her comfort zone to experience her dream.</p>
+        </section>
+    </div>
+    <div class="Flynn">
+      <img class="ctimg" src="flynn-project.jpeg" alt="Flynn">
+        <section>
+          <p class="character">Flynn!</p>
+          <p>Flynn is quick-thinking, sarcastic, and even a bit manipulative, although the latter mostly when still living under the façade of "Flynn Rider". However, he is also deeply kind, protective, and loyal to those he cares about. He was willing to die so that Rapunzel could be free from Gothel's hold.</p>
+        </section>
+    </div>
+    <div class="Gothel">
+      <img class="ctimg" src="Gothel.png" alt="gothel">
+        <section>
+          <p class="character">Mother Gothel!</p>
+          <p>Vain, manipulative, and selfish. Mother Gothel has some motherly, nurturing qualities, but they're always as part of a façade used to maintain control over Rapunzel. She lies about the dangers of the outside world, plays the victim for sympathy, and batters Rapunzel's self-esteem – all to keep her power.</p>
+        </section>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
